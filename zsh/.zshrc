@@ -72,6 +72,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions)
 bindkey -s ^f "tmux-sessionizer\n"
+bindkey -s ^q "tmux-chtsh\n"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh_profile
